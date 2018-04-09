@@ -7,4 +7,3 @@ mv saigon.app Payload/saigon.app
 echo "[*] Zipping into .ipa"
 zip -r9 Saigon.ipa Payload/saigon.app
 rm -rf build Payload
-echo "[*] Done! Install .ipa with Impactor"
